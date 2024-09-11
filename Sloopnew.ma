@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: Sloopnew.ma
-//Last modified: Thu, Sep 05, 2024 02:59:24 PM
+//Last modified: Thu, Sep 05, 2024 03:01:12 PM
 //Codeset: 1252
 requires maya "2023";
 currentUnit -l centimeter -a degree -t film;
@@ -9,12 +9,12 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202161415-df43006fd3";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
-fileInfo "UUID" "7C3BD160-45F2-1235-FEEC-46A1CB2A3EF1";
+fileInfo "UUID" "803403F3-4F8E-1A73-00AA-8EB1705EE2DE";
 createNode transform -s -n "persp";
 	rename -uid "D2AF0543-4E9D-8672-19D5-F58A8FA8658C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 20.587171457842601 13.430604000207648 20.661517126340563 ;
-	setAttr ".r" -type "double3" -10.538352810179296 6527.7999999915783 1.1837342533126624e-15 ;
+	setAttr ".t" -type "double3" 22.382592828270635 10.749610221632217 19.252078874998322 ;
+	setAttr ".r" -type "double3" -6.9383528101789214 6530.999999991569 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "882FAFB1-47EF-E242-9447-8FAA708CDFBE";
 	setAttr -k off ".v" no;
